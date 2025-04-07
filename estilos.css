@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f0f8ff;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+  }
+  
+  label {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #mensaje {
+    margin-top: 10px;
+    font-weight: bold;
+    color: green;
+  }
+  
+  .boton-verde {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .boton-verde:hover {
+    background-color: #218838;
+  }
+
+  .btn-eliminar {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn-eliminar:hover {
+    background-color: #c82333;
+  }

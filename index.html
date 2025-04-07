@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Inscripción a Paquetes Turísticos</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <h1>¡Contrata uno de estos Paquetes Turísticos y disfruta tus vacaciones!</h1>
+
+  <table id="tabla-paquetes">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Precio</th>
+        <th>Descripción</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <h2>Formulario de Inscripción</h2>
+  <form id="formulario-inscripcion">
+    <label>
+      Nombre:
+      <input type="text" name="nombre" required>
+    </label>
+    <label>
+      Correo:
+      <input type="email" name="correo" required>
+    </label>
+    <label>
+      Paquete:
+      <select name="paquete" id="select-paquete"></select>
+    </label>
+    <button type="submit">Inscribirse</button>
+  </form>
+
+  <p id="mensaje"></p>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="app.js"></script>
+  
+  <div style="margin-top: 20px;">
+    <a href="inscripciones.html">
+      <button type="button" class="boton-verde">Ver Inscripciones</button>
+    </a>
+  </div>
+
+</body>
+</html>
